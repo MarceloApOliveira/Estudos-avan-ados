@@ -1,0 +1,21 @@
+
+#include <stdio.h>
+int main ()
+{
+    float prestacao, valor, taxa, tempo;
+
+    printf ("escreva o valor da emprestimo: ");
+    scanf("%f", &valor);
+
+    printf("escreva o valor da taxa: ");
+    scanf("%f", &taxa);
+
+    printf("escreva o tempo do seu emprestivo: ");
+    scanf("%f", &tempo);
+
+    prestacao = valor + (valor * (taxa / 100) * tempo);
+
+    printf("o valor da prestacao eh %.5f\n", prestacao);
+
+    return 0;
+}
