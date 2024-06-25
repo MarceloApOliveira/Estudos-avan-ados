@@ -1,0 +1,13 @@
+#include <stdio.h>
+void main ()
+{
+float a, b, aux;
+printf("escreva um valor para a: ");
+scanf("%f", &a);
+printf("escreva um valor para b: ");
+scanf("%f", &b);
+aux=b;
+b=a;
+a=aux;
+printf("o valor de a eh %.1f e o valor de b eh %.1f\n", a, b);
+}
