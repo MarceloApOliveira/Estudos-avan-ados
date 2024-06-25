@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main () {
+  float volume, comprimento, altura, largura;
+
+  printf("escreva o comprimento da caixa de retangulo: ");
+  scanf("%f", &comprimento);
+
+  printf("escreva a altura da caixa de retangulo: ");
+  scanf("%f", &altura);
+
+  printf("escreva a largura da caixa de retangulo: ");
+  scanf("%f", &largura);
+
+  volume = comprimento * altura * largura;
+
+  printf("o volume da caixa eh %.5f\n", volume);
+
+  return 0;
+}
